@@ -1,21 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="add planned files structure">
-      <change afterPath="$PROJECT_DIR$/src/actions/authedUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/shared.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/tweets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/actions/users.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/authedUser.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/shared.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/tweets.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/reducers/users.js" afterDir="false" />
+    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="init actions and reducers">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/_DATA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/_DATA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/shared.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +17,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
   <component name="ProjectId" id="1qvAnCcWs5cffcuhMjx3FwGfHif" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -68,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617949856288</updated>
-      <workItem from="1617949858441" duration="5049000" />
+      <workItem from="1617949858441" duration="6767000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
@@ -84,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617951201571</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="init actions and reducers">
+      <created>1617956573658</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617956573658</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -104,7 +106,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version files" />
     <MESSAGE value="add planned files structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="add planned files structure" />
+    <MESSAGE value="init actions and reducers" />
+    <option name="LAST_COMMIT_MESSAGE" value="init actions and reducers" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
