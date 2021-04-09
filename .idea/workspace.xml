@@ -1,18 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="version files">
-      <change afterPath="$PROJECT_DIR$/src/components/Navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/NewTweet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tweet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TweetDetail.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/TweetList.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/NewTweet.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tweet.js" afterDir="false" />
+    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="add planned files structure">
+      <change afterPath="$PROJECT_DIR$/src/actions/authedUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/tweets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/actions/users.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/authedUser.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/shared.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/tweets.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/reducers/users.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/_DATA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/_DATA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +68,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617949856288</updated>
-      <workItem from="1617949858441" duration="1311000" />
+      <workItem from="1617949858441" duration="5049000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
@@ -73,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617950434776</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add planned files structure">
+      <created>1617951201571</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617951201571</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,7 +103,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version files" />
-    <option name="LAST_COMMIT_MESSAGE" value="version files" />
+    <MESSAGE value="add planned files structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="add planned files structure" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
