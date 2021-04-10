@@ -1,11 +1,22 @@
-import React from "react";
+import React, { Component } from "react";
+import { connect } from "react-redux";
 
-const Tweet = (props) => {
-  return (
-    <div>
-      <div></div>
-    </div>
-  );
+class Tweet extends Component {
+  render() {
+    return (
+      <div>
+        <div className="tweet"></div>
+      </div>
+    );
+  }
+}
+
+const mapStateToProps = ({ authedUser, users, tweets }, { id }) => {
+  return {
+    authedUser,
+    tweet:tweets[id],
+    user: users[tweets[id].user]
+  };
 };
 
-export default Tweet;
+export default connect()(Tweet);
