@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { handleInitialData } from "../actions";
 import Dashboard from "../views/Dashboard";
+import LoadingBarContainer from "react-redux-loading";
 
 class App extends Component {
   componentDidMount() {
@@ -9,7 +10,12 @@ class App extends Component {
   }
 
   render() {
-    return <div>{this.props.authedUser && <Dashboard />}</div>;
+    return (
+      <div>
+        <LoadingBarContainer />
+        {this.props.authedUser && <Dashboard />}
+      </div>
+    );
   }
 }
 
