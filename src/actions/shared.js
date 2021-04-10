@@ -4,7 +4,7 @@ import { showLoading, hideLoading } from "react-redux-loading";
 
 const AUTHED_ID = "alex_zheng";
 
-export function handleInitialData() {
+export const handleInitialData = () => {
   return (dispatch) => {
     dispatch(showLoading());
     return getInitialData().then(({ users, tweets }) => {
@@ -14,4 +14,4 @@ export function handleInitialData() {
       dispatch(hideLoading());
     });
   };
-}
+};
