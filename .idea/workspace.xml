@@ -1,14 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="init actions and reducers">
+    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="1) setUp redux store&#10;2) fix npm link">
+      <change afterPath="$PROJECT_DIR$/src/middleware/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/middleware/logger.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tweet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tweet.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reducers/authedUser.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/authedUser.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/shared.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/reducers/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Dashboard.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,21 +42,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\Udacity\reactnd-chirper-app\src\components" />
       <recent name="C:\Users\Administrator\Desktop\Udacity\reactnd-chirper-app\src" />
     </key>
-  </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -63,7 +54,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617949856288</updated>
-      <workItem from="1617949858441" duration="6767000" />
+      <workItem from="1617949858441" duration="11829000" />
+      <workItem from="1617977097269" duration="8000" />
+      <workItem from="1618026641595" duration="624000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
@@ -86,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617956573658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1) setUp redux store&#10;2) fix npm link">
+      <created>1617958356452</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617958356452</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,12 +102,14 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version files" />
     <MESSAGE value="add planned files structure" />
     <MESSAGE value="init actions and reducers" />
-    <option name="LAST_COMMIT_MESSAGE" value="init actions and reducers" />
+    <MESSAGE value="1) setUp redux store&#10;2) fix npm link" />
+    <option name="LAST_COMMIT_MESSAGE" value="1) setUp redux store&#10;2) fix npm link" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
