@@ -85,6 +85,10 @@ li {
   cursor: pointer;
 }
 
+.tweet-reply {
+  transform: scale(0.9);
+}
+
 .tweet-info {
   margin: 10px;
   display: flex;

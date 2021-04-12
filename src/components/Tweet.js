@@ -35,10 +35,11 @@ class Tweet extends Component {
       replies,
       id,
       parent,
+      replyingTo,
     } = tweet;
 
     return (
-      <div className="tweet">
+      <div className={`tweet  ${replyingTo ? "tweet-reply" : null}`}>
         <img src={avatar} alt={`Avatar of ${name}`} className="avatar" />
         <div className="tweet-info">
           <div>
