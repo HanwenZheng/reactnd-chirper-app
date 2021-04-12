@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="Feature: new css for replies">
+    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="Feature: working new tweet component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/actions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/actions/tweets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/actions/tweets.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewTweet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewTweet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reducers/tweets.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/reducers/tweets.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TweetDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/TweetDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/TweetList.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Dashboard.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Dashboard.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/NewTweet.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tweet.js" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +59,8 @@
       <workItem from="1618048874771" duration="3492000" />
       <workItem from="1618101341943" duration="51000" />
       <workItem from="1618186858130" duration="1352000" />
-      <workItem from="1618189459134" duration="3011000" />
+      <workItem from="1618189459134" duration="4451000" />
+      <workItem from="1618210010372" duration="1492000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1618188119433</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Feature: working new tweet component">
+      <created>1618192500630</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1618192500630</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -166,7 +176,8 @@
     <MESSAGE value="Tweet UI &amp; Loading bar" />
     <MESSAGE value="handle tweet like" />
     <MESSAGE value="Feature: new css for replies" />
-    <option name="LAST_COMMIT_MESSAGE" value="Feature: new css for replies" />
+    <MESSAGE value="Feature: working new tweet component" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: working new tweet component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

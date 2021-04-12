@@ -15,12 +15,12 @@ const addTweet = (tweet) => ({
   tweet,
 });
 
-export const handleAddTweet = (text, replayingTo) => (dispatch, getState) => {
+export const handleAddTweet = (text, replyingTo) => (dispatch, getState) => {
   const { authedUser } = getState();
   dispatch(showLoading());
   return saveTweet({
     text,
-    replayingTo,
+    replyingTo,
     author: authedUser,
   }).then((tweet) => {
     dispatch(addTweet(tweet));
