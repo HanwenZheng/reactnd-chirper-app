@@ -5,10 +5,12 @@ import { TiArrowBackOutline } from "react-icons/ti";
 import { TiHeartOutline } from "react-icons/ti";
 import { TiHeartFullOutline } from "react-icons/ti";
 import { handleToggleTweet } from "../actions";
+import { NavLink, withRouter } from "react-router-dom";
 
 class Tweet extends Component {
   toParent = (e, id) => {
     e.preventDefault();
+    this.props.history.push(`/tweet/${id}`);
   };
 
   handleLike = (e) => {
@@ -39,39 +41,41 @@ class Tweet extends Component {
     } = tweet;
 
     return (
-      <div className={`tweet  ${replyingTo ? "tweet-reply" : null}`}>
-        <img src={avatar} alt={`Avatar of ${name}`} className="avatar" />
-        <div className="tweet-info">
-          <div>
-            <span>{name}</span>
-            <div>{formatDate(timestamp)}</div>
-            {parent && (
-              <button
-                className="replying-to"
-                onClick={(e) => this.toParent(e, parent.id)}
-              >
-                Replying to @{parent.author}
-              </button>
-            )}
-            <p>{text}</p>
-          </div>
-          <div className="tweet-icons">
-            <TiArrowBackOutline className="tweet-icon" />
-            <span>{replies !== 0 && replies}</span>
-            <button
-              className="heart-button"
-              onClick={(e) => this.handleLike(e)}
-            >
-              {hasLiked === true ? (
-                <TiHeartFullOutline color="#e0245e" className="tweet-icon" />
-              ) : (
-                <TiHeartOutline className="tweet-icon" />
+      <NavLink to={`/tweet/${id}`}>
+        <div className={`tweet  ${replyingTo ? "tweet-reply" : null}`}>
+          <img src={avatar} alt={`Avatar of ${name}`} className="avatar" />
+          <div className="tweet-info">
+            <div>
+              <span>{name}</span>
+              <div>{formatDate(timestamp)}</div>
+              {parent && (
+                <button
+                  className="replying-to"
+                  onClick={(e) => this.toParent(e, parent.id)}
+                >
+                  Replying to @{parent.author}
+                </button>
               )}
-            </button>
-            <span>{likes !== 0 && likes}</span>
+              <p>{text}</p>
+            </div>
+            <div className="tweet-icons">
+              <TiArrowBackOutline className="tweet-icon" />
+              <span>{replies !== 0 && replies}</span>
+              <button
+                className="heart-button"
+                onClick={(e) => this.handleLike(e)}
+              >
+                {hasLiked === true ? (
+                  <TiHeartFullOutline color="#e0245e" className="tweet-icon" />
+                ) : (
+                  <TiHeartOutline className="tweet-icon" />
+                )}
+              </button>
+              <span>{likes !== 0 && likes}</span>
+            </div>
           </div>
         </div>
-      </div>
+      </NavLink>
     );
   }
 }
@@ -86,4 +90,4 @@ const mapStateToProps = ({ authedUser, users, tweets }, { id }) => {
   };
 };
 
-export default connect(mapStateToProps)(Tweet);
+export default withRouter(connect(mapStateToProps)(Tweet));
