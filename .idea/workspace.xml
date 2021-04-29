@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="Feature: TweetDetail view">
-      <change afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/NewTweet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/NewTweet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tweet.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tweet.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/_DATA.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/_DATA.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +57,7 @@
       <workItem from="1618210010372" duration="4733000" />
       <workItem from="1618319552939" duration="61000" />
       <workItem from="1618636105340" duration="1318000" />
+      <workItem from="1619698647478" duration="38000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
