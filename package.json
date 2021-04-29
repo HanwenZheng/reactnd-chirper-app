@@ -19,9 +19,5 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/udacity/reactnd-chirper-app.git"
-  }
+  "license": "MIT"
 }

@@ -142,16 +142,7 @@ let tweets = {
     replies: [],
     replyingTo: null,
   },
-  "6h5ims9iks66d4m7kqizmv": {
-    id: "6h5ims9iks66d4m7kqizmv",
-    text:
-      "By the way, if you have a blog post sitting around and want to get some eyes on it, we take guest submissions! That's how I started.",
-    author: "alex_zheng",
-    timestamp: 1610043995650,
-    likes: ["dan_abramov", "tylermcginnis"],
-    replies: ["xi3ca2jcfvpa0i3t4m7ag", "r0xu2v1qrxa6ygtvf2rkjw"],
-    replyingTo: null,
-  },
+
   fap8sdxppna8oabnxljzcv: {
     id: "fap8sdxppna8oabnxljzcv",
     author: "tylermcginnis",
@@ -215,15 +206,6 @@ let tweets = {
     timestamp: 1614044994650,
     likes: ["alex_zheng"],
     replyingTo: "2mb6re13q842wu8n106bhk",
-    replies: [],
-  },
-  r0xu2v1qrxa6ygtvf2rkjw: {
-    id: "r0xu2v1qrxa6ygtvf2rkjw",
-    author: "dan_abramov",
-    text: "This is a great idea.",
-    timestamp: 1610044395650,
-    likes: ["tylermcginnis"],
-    replyingTo: "6h5ims9iks66d4m7kqizmv",
     replies: [],
   },
 };
