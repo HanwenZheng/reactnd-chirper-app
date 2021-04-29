@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="Production: release v1.1">
+    <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="Production: release v1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +62,8 @@
       <workItem from="1618210010372" duration="4733000" />
       <workItem from="1618319552939" duration="61000" />
       <workItem from="1618636105340" duration="1318000" />
-      <workItem from="1619698647478" duration="865000" />
+      <workItem from="1619698647478" duration="892000" />
+      <workItem from="1619700761106" duration="73000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
@@ -171,7 +170,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619699047695</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Production: release v1.2">
+      <created>1619699529549</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1619699529549</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,7 +211,8 @@
     <MESSAGE value="Feature: TweetDetail view" />
     <MESSAGE value="Production: release v1.0" />
     <MESSAGE value="Production: release v1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Production: release v1.1" />
+    <MESSAGE value="Production: release v1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Production: release v1.2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
