@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09a93838-a4c0-48ee-9400-125962ae8678" name="Default Changelist" comment="Production: release v1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,8 @@
       <workItem from="1618319552939" duration="61000" />
       <workItem from="1618636105340" duration="1318000" />
       <workItem from="1619698647478" duration="892000" />
-      <workItem from="1619700761106" duration="73000" />
+      <workItem from="1619700761106" duration="98000" />
+      <workItem from="1619766380686" duration="60000" />
     </task>
     <task id="LOCAL-00001" summary="version files">
       <created>1617950434776</created>
@@ -177,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1619699529549</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Feature: enable ReduxDevTools">
+      <created>1619700844466</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1619700844466</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +220,8 @@
     <MESSAGE value="Production: release v1.0" />
     <MESSAGE value="Production: release v1.1" />
     <MESSAGE value="Production: release v1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Production: release v1.2" />
+    <MESSAGE value="Feature: enable ReduxDevTools" />
+    <option name="LAST_COMMIT_MESSAGE" value="Feature: enable ReduxDevTools" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

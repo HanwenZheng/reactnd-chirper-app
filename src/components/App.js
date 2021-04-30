@@ -8,6 +8,7 @@ import Dashboard from "./Dashboard";
 import NewTweet from "./NewTweet";
 import TweetDetail from "./TweetDetail";
 import Nav from "./Nav";
+import { Scrollbars } from "react-custom-scrollbars-2";
 
 class App extends Component {
   componentDidMount() {
@@ -18,17 +19,25 @@ class App extends Component {
     return (
       <Router>
         <Fragment>
-          <LoadingBarContainer style={{ position: "fixed" }} />
-          <div className="container">
-            <Nav />
-            {this.props.loaded && (
-              <div>
-                <Route path="/" exact component={Dashboard} />
-                <Route path="/tweet/:id" component={TweetDetail} />
-                <Route path="/new" component={NewTweet} />
-              </div>
-            )}
-          </div>
+          <Scrollbars
+            autoHeight
+            autoHeightMax="100vh"
+            autoHide
+            autoHideTimeout={500}
+            autoHideDuration={500}
+          >
+            <LoadingBarContainer style={{ position: "fixed" }} />
+            <div className="container">
+              <Nav />
+              {this.props.loaded && (
+                <div>
+                  <Route path="/" exact component={Dashboard} />
+                  <Route path="/tweet/:id" component={TweetDetail} />
+                  <Route path="/new" component={NewTweet} />
+                </div>
+              )}
+            </div>
+          </Scrollbars>
         </Fragment>
       </Router>
     );
